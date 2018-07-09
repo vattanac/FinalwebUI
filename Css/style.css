@@ -1,0 +1,11 @@
+
+.cvideo img{
+    width: 10px;
+    height: 300px;
+}
+.mid-bar{
+    border: 3px solid orange;
+    height: 50px;
+    width: 70%;
+    border-radius: 25px;
+}
