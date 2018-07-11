@@ -16,51 +16,140 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
+    <script src="../Javascript/jquery.min.js"></script>
+    <script src="../Javascript/script.js"></script>
     <link rel="stylesheet" href="../Css/style.css">
+
+    <!-- link for print -->
+    <link rel="stylesheet" href="../../stylesheets/coloringpage.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="../../stylesheets/coloringpageprint.css" type="text/css" media="print" />
+    <!-- make scroll on image -->
+    <link rel="stylesheet" href="../Css/flickity.css">
+    <script src="../Javascript/flickity.pkgd.min.js"></script>
+
+    <!-- framework for embed youtube -->
+    <script data-cfasync="false">
+        (function (r, e, E, m, b) {
+            E[r] = E[r] || {};
+            E[r][b] = E[r][b] || function () {
+                (E[r].q = E[r].q || []).push(arguments)
+            };
+            b = m.getElementsByTagName(e)[0];
+            m = m.createElement(e);
+            m.async = 1;
+            m.src = ("file:" == location.protocol ? "https:" : "") + "//s.reembed.com/G-XEj3Yn.js";
+            b.parentNode.insertBefore(m, b)
+        })("reEmbed", "script", window, document, "api");
+    </script>
 </head>
 
 <body>
-    <div class="mycontainer ">
+    <div class="container">
         <div class="cvideo">
-
             <div class="embed-responsive embed-responsive-16by9" style="height: 500px;">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/op1QYwRAQpI" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="cphotos d-flex justify-content-center container">
-            <img style="width: 120px;height: 100px;" src="../Image/ch.jpg" alt="images">
-            <img style="width: 120px;height: 100px;" src="../Image/ch.jpg" alt="images">
-            <img style="width: 120px;height: 100px;" src="../Image/ch.jpg" alt="images">
+        <div class="d-flex justify-content-center">
+            <div class="carousel cphotos contain-img" data-flickity='{ "groupCells": true }'>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+                <div class="carousel-cell">
+                    <img class="mr-2" src="../Image/ch.jpg" alt="images">
+                </div>
+
+            </div>
         </div>
 
         <div class="mid-bar container">
             <div class="">
-                <div class="d-flex align-items-center justify-content-around" style="margin-top: 12px">
+
+                <div class="d-flex align-items-center justify-content-around mt-2 sub-mid-bar">
                     <div>
-                        <i class="fas fa-heart text-center">Book mark</i>
+                        <i id="love" class="far fa-heart"> រក្សារក្នុងបញ្ជី</i>
+                    </div>
+
+
+
+                    <div>
+                        <a href="javascript:window.print()">
+                            <i class="fas fa-print"> ព្រីន</i>
+                        </a>
+                        <!-- <a id="printableArea">
+                                <i onclick="printDiv('printableArea')" class="fas fa-print"> ព្រីន</i>
+                            </a> -->
+                        <!-- <i  id="printhere"   class=" tt fas fa-print"> ព្រីន</i> -->
+                        <!-- <a href="#" onclick="printInfo(this)">Print</a> -->
                     </div>
                     <div>
-                        <i class="fas fa-heart">Book mark</i>
-                    </div>
-                    <div>
-                        <i class="fas fa-heart">Book mark</i>
+                        <i class="fab fa-facebook"> ចែករំលែក</i>
                     </div>
                 </div>
+
             </div>
         </div>
 
     </div>
-    <div class="con-info" style="height: 200px;margin-top: 10px">
+    <div class="con-info container mt-4">
 
         <div class="row">
-            <div class="col-7 " style="margin:0 50px; ">
+            <div class="col-md-9 " id="print-point">
                 <div class="container ">
                     <h5>គ្រឿងផ្សំ</h5>
                     <hr>
                     <div class="d-flex justify-content-center">
-                        <div style="background-color: rgb(224, 224, 224);border-radius: 6px; width: 70%;" class="row ">
+                        <div class="row myincre">
                             <div class="col-md-6 d-flex align-items-center">
-                                <div style="margin-top: 10px">
+                                <div class="mt-4">
                                     <ul>
                                         <li>សាច់ជ្រូក (៣០០​ ក្រាម)</li>
                                         <li>ម្នាស់កាត់ដុំតូចៗ (១​ ចាន)</li>
@@ -73,7 +162,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div style="margin-top: 10px">
+                                <div class="mt-4">
 
                                     <ul>
                                         <li>ស្ករ(១ ស្លាបព្រាបាយ)</li>
@@ -88,50 +177,120 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="container">
                     <h5>របៀបធ្វើ</h5>
                     <hr>
                     <div class="d-flex justify-content-center">
-                            <div style="background-color: rgb(224, 224, 224);border-radius: 6px; width: 70%;" class="row ">
-                                <div class="col-md-12 d-flex align-items-center">
-                                    <div style="margin-top: 10px">
-                                        <p style="padding: 20px 20px">
-                                                ហាន់សាច់ជ្រូកជាបន្ទះស្តើងៗ ចៀនអោយឡើងក្រៀមពណ៍លឿង ដួស
-                                                ដាក់ចានរួចហើយទុកអោយស្រក់ប្រេង។ចាក់ប្រេងចូលខ្ទះ ដុតភ្លើងអោយ
-                                                ក្តៅដាក់ម្នាស់ ប៉េងប៉ោះ ម្ទេសប្លោក ការ៉ុត រួចហើយឆាអោយសព្វ បន្ទាប់
-                                                មកចាក់ទឹកស៊ុបចូល បន្ទាប់មករំងាស់វា។ផ្សំគ្រឿងដោយដាក់ស្ករ អំបិល
-                                                 ទឹកត្រី ទឹកប៉េងប៉ោះ។ដាក់សាច់ជ្រូកចូល ហើយឆាអោយចូលគ្នា ល្មមពេ
-                                                លដែលទឹកពុះ លាយម្សៅពោតចូលនឹងទឹក ទើបដាក់ឆាអោយឆ្អិន
-                                                ឡើងខាប់ រួចដួសដាក់ចាន បន្ទាប់មកសាកល្បងភ្លក់មើលថាតើឆ្ងាញ់ឬទេ
+                        <div class="row cmethod">
+                            <div class="col-md-12 d-flex align-items-center">
 
-                                                ហាន់សាច់ជ្រូកជាបន្ទះស្តើងៗ ចៀនអោយឡើងក្រៀមពណ៍លឿង ដួស
-                                                ដាក់ចានរួចហើយទុកអោយស្រក់ប្រេង។ចាក់ប្រេងចូលខ្ទះ ដុតភ្លើងអោយ
-                                                ក្តៅដាក់ម្នាស់ ប៉េងប៉ោះ ម្ទេសប្លោក ការ៉ុត រួចហើយឆាអោយសព្វ បន្ទាប់
-                                                មកចាក់ទឹកស៊ុបចូល បន្ទាប់មករំងាស់វា។ផ្សំគ្រឿងដោយដាក់ស្ករ អំបិល
-                                                 ទឹកត្រី ទឹកប៉េងប៉ោះ។ដាក់សាច់ជ្រូកចូល ហើយឆាអោយចូលគ្នា ល្មមពេ
-                                                លដែលទឹកពុះ លាយម្សៅពោតចូលនឹងទឹក ទើបដាក់ឆាអោយឆ្អិន
-                                                ឡើងខាប់ រួចដួសដាក់ចាន បន្ទាប់មកសាកល្បងភ្លក់មើលថាតើឆ្ងាញ់ឬទេ
-                                        </p>
-                                    </div>
+                                <div class="mt-2">
+                                    <p class="pt-4 pb-4 pl-4 pr-4">
+                                        ហាន់សាច់ជ្រូកជាបន្ទះស្តើងៗ ចៀនអោយឡើងក្រៀមពណ៍លឿង ដួស ដាក់ចានរួចហើយទុកអោយស្រក់ប្រេង។ចាក់ប្រេងចូលខ្ទះ ដុតភ្លើងអោយ ក្តៅដាក់ម្នាស់
+                                        ប៉េងប៉ោះ ម្ទេសប្លោក ការ៉ុត រួចហើយឆាអោយសព្វ បន្ទាប់ មកចាក់ទឹកស៊ុបចូល បន្ទាប់មករំងាស់វា។ផ្សំគ្រឿងដោយដាក់ស្ករ
+                                        អំបិល ទឹកត្រី ទឹកប៉េងប៉ោះ។ដាក់សាច់ជ្រូកចូល ហើយឆាអោយចូលគ្នា ល្មមពេ លដែលទឹកពុះ លាយម្សៅពោតចូលនឹងទឹក
+                                        ទើបដាក់ឆាអោយឆ្អិន ឡើងខាប់ រួចដួសដាក់ចាន បន្ទាប់មកសាកល្បងភ្លក់មើលថាតើឆ្ងាញ់ឬទេ ហាន់សាច់ជ្រូកជាបន្ទះស្តើងៗ
+                                        ចៀនអោយឡើងក្រៀមពណ៍លឿង ដួស ដាក់ចានរួចហើយទុកអោយស្រក់ប្រេង។ចាក់ប្រេងចូលខ្ទះ ដុតភ្លើងអោយ
+                                        ក្តៅដាក់ម្នាស់ ប៉េងប៉ោះ ម្ទេសប្លោក ការ៉ុត រួចហើយឆាអោយសព្វ បន្ទាប់ មកចាក់ទឹកស៊ុបចូល
+                                        បន្ទាប់មករំងាស់វា។ផ្សំគ្រឿងដោយដាក់ស្ករ អំបិល ទឹកត្រី ទឹកប៉េងប៉ោះ។ដាក់សាច់ជ្រូកចូល
+                                        ហើយឆាអោយចូលគ្នា ល្មមពេ លដែលទឹកពុះ លាយម្សៅពោតចូលនឹងទឹក ទើបដាក់ឆាអោយឆ្អិន ឡើងខាប់ រួចដួសដាក់ចាន
+                                        បន្ទាប់មកសាកល្បងភ្លក់មើលថាតើឆ្ងាញ់ឬទេ ហើយឆាអោយចូលគ្នា ល្មមពេ លដែលទឹកពុះ លាយម្សៅពោតចូលនឹងទឹក
+                                        ទើបដាក់ឆាអោយឆ្អិន ឡើងខាប់ រួចដួសដាក់ចាន បន្ទាប់មកសាកល្បងភ្លក់មើលថាតើឆ្ងាញ់ឬទេបន្ទាប់មកសាកល្បងភ្លក់មើលថាតើឆ្ងាញ់ឬទេ
+                                    </p>
                                 </div>
-                                
                             </div>
+
                         </div>
-    
+                    </div>
+
                 </div>
+
             </div>
-            <div class="col-2" style="background-color: darkkhaki">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem est vero enim, optio aut nihil ullam
-                    nemo perspiciatis beatae voluptatibus exercitationem, eos aperiam quaerat vel quia perferendis, sunt
-                    minima animi?</p>
+            <div class="col-md-3">
+                <h5>អត្ថបទថ្មី</h5>
+                <hr>
+                <div class="">
+                    <div class="d-flex justify-content-center mb-2 news-article ">
+                        <img src="../Image/ch.jpg" alt="image">
+                        <div class="sub-news-article">&nbsp;</div>
+                        <div class="caption d-flex justify-content-center">
+                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                        </div>
+
+                    </div>
+                    <div class="d-flex justify-content-center mb-2 news-article">
+                        <img src="../Image/ch.jpg">
+                        <div class="sub-news-article">&nbsp;</div>
+                        <div class="caption d-flex justify-content-center">
+                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                        </div>
+
+                    </div>
+                    <div class="d-flex justify-content-center mb-2 news-article">
+                        <img src="../Image/ch.jpg">
+                        <div class="sub-news-article">&nbsp;</div>
+                        <div class="caption d-flex justify-content-center">
+                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                        </div>
+
+                    </div>
+                    <div class="d-flex justify-content-center mb-2 news-article">
+                        <img src="../Image/ch.jpg">
+                        <div class="sub-news-article">&nbsp;</div>
+                        <div class="caption d-flex justify-content-center">
+                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                        </div>
+
+                    </div>
+                    <div class="d-flex justify-content-center mb-2 news-article">
+                        <img src="../Image/ch.jpg">
+                        <div class="sub-news-article">&nbsp;</div>
+                        <div class="caption d-flex justify-content-center">
+                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
             </div>
         </div>
-        <div class="row" style="margin:0 50px;background-color: rgb(72, 72, 206)">
-            h4
+        <div class="" style="margin:0 50px;">
+            <div class="container">
+                <h5>អត្ថបទទាក់ទង</h5>
+                <hr>
+
+                <div class="row related-article">
+                    <div class="col-md-3">
+                        <img src="../Image/ch.jpg">
+                        <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../Image/ch.jpg">
+                        <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../Image/ch.jpg">
+                        <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../Image/ch.jpg">
+                        <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
         </div>
     </div>
     <div class="new-topic d-flex justify-content-start ">
+        <div>
 
+        </div>
     </div>
     </div>
     <div class="relate-topic"></div>

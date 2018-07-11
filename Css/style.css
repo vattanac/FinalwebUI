@@ -1,11 +1,91 @@
-
-.cvideo img{
+.cvideo img {
     width: 10px;
     height: 300px;
 }
-.mid-bar{
+
+.sub-news-article {
+    background-color: rgb(116, 116, 116);
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 70%;
+    opacity: 0.5;
+    height: 40px;
+}
+
+.news-article img {
+    width: 100%;
+    height: 130px;
+}
+
+.news-article {
+    position: relative;
+}
+
+.related-article img{
+    width: 100%;
+}
+.cvideo2 {
+    height: 500px;
+}
+
+.cmethod {
+    background-color: rgb(224, 224, 224);
+    border-radius: 6px;
+    width: 70%;
+}
+
+.con-info {
+    height: 200px;
+}
+
+.sub-mid-bar i {
+    font-size: 15px;
+    color: rgb(109, 109, 109);
+}
+.caption{
+    color: rgba(245, 245, 245, 0.897);
+    position:absolute;
+    top: 70%;
+    left: 10px;
+    width: 100%;
+    z-index: 11;
+}
+.contain-img{
+    width: 50%;
+}
+.contain-img img {
+    width: 120px;
+    height: 100px;
+}
+
+.myincre {
+    background-color: rgb(224, 224, 224);
+    border-radius: 6px;
+    width: 70%;
+}
+
+.mid-bar {
+    margin-top: 20px;
     border: 3px solid orange;
     height: 50px;
-    width: 70%;
+    width: 100%;
     border-radius: 25px;
+}
+
+@media (max-width: 767.98px) {
+    .news-article img {
+        width: 50%;
+        height: 130px;
+    }
+    
+    .sub-news-article{  
+        width: 50%;
+        height: 40px;
+    }
+    
+    
+}
+.flickity-page-dots{
+    display: none;
 }
