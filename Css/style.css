@@ -1,7 +1,11 @@
-
 .cvideo img {
     width: 10px;
     height: 300px;
+}
+
+.con-info {
+    font-family: 'Koulen', cursive;
+    font-family: 'Battambang', cursive;
 }
 
 .sub-news-article {
@@ -23,9 +27,10 @@
     position: relative;
 }
 
-.related-article img{
+.related-article img {
     width: 100%;
 }
+
 .cvideo2 {
     height: 500px;
 }
@@ -33,7 +38,7 @@
 .cmethod {
     background-color: rgb(224, 224, 224);
     border-radius: 6px;
-    width: 70%;
+    width: 90%;
 }
 
 .con-info {
@@ -44,17 +49,20 @@
     font-size: 15px;
     color: rgb(109, 109, 109);
 }
-.caption{
+
+.caption {
     color: rgba(245, 245, 245, 0.897);
-    position:absolute;
+    position: absolute;
     top: 70%;
     left: 10px;
     width: 100%;
     z-index: 11;
 }
-.contain-img{
+
+.contain-img {
     width: 150%;
 }
+
 .contain-img img {
     width: 120px;
     height: 100px;
@@ -63,7 +71,7 @@
 .myincre {
     background-color: rgb(224, 224, 224);
     border-radius: 6px;
-    width: 70%;
+    width: 90%;
 }
 
 .mid-bar {
@@ -79,66 +87,70 @@
         width: 50%;
         height: 130px;
     }
-    
-    .sub-news-article{  
+    .sub-news-article {
         width: 50%;
         height: 40px;
     }
-    
-    
 }
+
 .btn .fa.fa-sm {
     font-size: 1rem;
     margin-top: -5px;
 }
-.flickity-page-dots{
+
+.flickity-page-dots {
     display: none;
 }
-.custome{
+
+.custome {
     border-radius: 100px;
 }
 
-.custome-main button{
+.custome-main button {
     /* background-color: red; */
     border: 1px solid orange;
-} 
+}
+
 /* .custome-main:hover button{
     background-color: blue; 
     border: 1px solid orange;
 }  */
-.custome-main{
+
+.custome-main {
     width: 70%;
-    
 }
-.custome-main:hover{
+
+.custome-main:hover {
     color: red;
-   
 }
 
 /* custome for link a */
+
 .acustome:active,
-.acustome:hover{
+.acustome:hover {
     text-decoration: none;
-    
 }
-a{
+
+a {
     color: rgba(87, 87, 87, 0.774);
 }
 
-a:active
-{
-    color: rgb(0, 4, 255); 
+a:active {
+    color: rgb(0, 4, 255);
 }
-a:hover{
+
+a:hover {
     color: rgb(65, 65, 65);
-   
 }
-.btncustome:hover{
-  background-color: orange;
+
+.btncustome:hover {
+    background-color: orange;
 }
-.bgc{
-    background-color:white;
+
+.bgc {
+    background-color: white;
 }
-.bg-red{
+
+.bg-red {
     background-color: red !important;
 }
