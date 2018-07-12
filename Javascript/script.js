@@ -3,13 +3,10 @@
   var printid = $("#print-point");
 $(document).ready(function () {
   
-    $("#btncustome").mousedown(function(){
-        $("#btncustome").css("background-color", "orange");
-        $("#btncustome").css("color", "white");
-        // $("#btncustome").html("<h2>Hi</h2>");
-        // $("#btncustome").addClass("bgc");
-        
-    })
+    // $(".btncustome").mouseup(function(){
+    //     $(".btncustome").css("background-color", "red");
+    //     $(".btncustome").css("color", "white");
+    // })
    $("#pp").click(function(){
        printInfo(printid);
        alert("PRint");

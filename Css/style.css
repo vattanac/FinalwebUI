@@ -53,7 +53,7 @@
     z-index: 11;
 }
 .contain-img{
-    width: 50%;
+    width: 150%;
 }
 .contain-img img {
     width: 120px;
@@ -98,7 +98,7 @@
     border-radius: 100px;
 }
 
-.custome-main #btncustome{
+.custome-main button{
     /* background-color: red; */
     border: 1px solid orange;
 } 
@@ -122,17 +122,23 @@
     
 }
 a{
-    color: rgba(134, 134, 134, 0.774);
-}
-a:active ,a:hover{
-    color: rgb(65, 65, 65);
-}
-.btn:visited,
-.btn:hover,
-.btn:active{
-   
-}
-.bgc{
-    background-color:rgba(224, 224, 224);
+    color: rgba(87, 87, 87, 0.774);
 }
 
+a:active
+{
+    color: rgb(0, 4, 255); 
+}
+a:hover{
+    color: rgb(65, 65, 65);
+   
+}
+.btncustome:hover{
+  background-color: orange;
+}
+.bgc{
+    background-color:white;
+}
+.bg-red{
+    background-color: red !important;
+}
