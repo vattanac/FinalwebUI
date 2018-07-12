@@ -1,3 +1,4 @@
+
 .cvideo img {
     width: 10px;
     height: 300px;
@@ -86,6 +87,52 @@
     
     
 }
+.btn .fa.fa-sm {
+    font-size: 1rem;
+    margin-top: -5px;
+}
 .flickity-page-dots{
     display: none;
 }
+.custome{
+    border-radius: 100px;
+}
+
+.custome-main #btncustome{
+    /* background-color: red; */
+    border: 1px solid orange;
+} 
+/* .custome-main:hover button{
+    background-color: blue; 
+    border: 1px solid orange;
+}  */
+.custome-main{
+    width: 70%;
+    
+}
+.custome-main:hover{
+    color: red;
+   
+}
+
+/* custome for link a */
+.acustome:active,
+.acustome:hover{
+    text-decoration: none;
+    
+}
+a{
+    color: rgba(134, 134, 134, 0.774);
+}
+a:active ,a:hover{
+    color: rgb(65, 65, 65);
+}
+.btn:visited,
+.btn:hover,
+.btn:active{
+   
+}
+.bgc{
+    background-color:rgba(224, 224, 224);
+}
+
