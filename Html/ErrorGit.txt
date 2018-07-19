@@ -1,0 +1,32 @@
+MACs-MacBook-Pro-3:MehPtas VattanacR$ git pull origin develop
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+MACs-MacBook-Pro-3:MehPtas VattanacR$ git add .
+MACs-MacBook-Pro-3:MehPtas VattanacR$ git commit -m "hello hell"
+[vattanac 3a41520] hello hell
+MACs-MacBook-Pro-3:MehPtas VattanacR$ git push
+Counting objects: 16, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (16/16), 1.49 KiB | 1.49 MiB/s, done.
+Total 16 (delta 4), reused 0 (delta 0)
+remote: 
+remote: To create a merge request for vattanac, visit:
+remote:   https://gitlab.com/KSHRD-6th-Generation-ITE/Basic-Course/food-recipe/MehPtas/merge_requests/new?merge_request%5Bsource_branch%5D=vattanac
+remote: 
+To https://gitlab.com/KSHRD-6th-Generation-ITE/Basic-Course/food-recipe/MehPtas.git
+   f2ae7eb..3a41520  vattanac -> vattanac
+MACs-MacBook-Pro-3:MehPtas VattanacR$ git pull
+Already up to date.
+MACs-MacBook-Pro-3:MehPtas VattanacR$ git pull orgin develop
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+MACs-MacBook-Pro-3:MehPtas VattanacR$ git pull origin develop
+From https://gitlab.com/KSHRD-6th-Generation-ITE/Basic-Course/food-recipe/MehPtas
+ * branch            develop    -> FETCH_HEAD
+Already up to date.
+MACs-MacBook-Pro-3:MehPtas VattanacR$ 

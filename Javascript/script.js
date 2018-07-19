@@ -3,10 +3,10 @@
   var printid = $("#print-point");
 $(document).ready(function () {
   
-    // $(".btncustome").mouseup(function(){
-    //     $(".btncustome").css("background-color", "red");
-    //     $(".btncustome").css("color", "white");
-    // })
+    $("#aprint").click(function(){
+        window.print();
+    })
+   
    $("#pp").click(function(){
        printInfo(printid);
        alert("PRint");

@@ -30,27 +30,20 @@
     <!-- link for print -->
     <link rel="stylesheet" href="../../stylesheets/coloringpage.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="../../stylesheets/coloringpageprint.css" type="text/css" media="print" />
+    <link rel="icon" href="../Image/cook.png">
     <!-- make scroll on image -->
     <link rel="stylesheet" href="../Css/flickity.css">
-    <script src="../Javascript/flickity.pkgd.min.js"></script>
+    <script src="../Javascript/flickity.pkgd.min.js"></script>z
     <script src="../Javascript/script.js"></script>
 
-    <!-- framework for embed youtube -->
-    <script data-cfasync="false">
-        (function (r, e, E, m, b) {
-            E[r] = E[r] || {};
-            E[r][b] = E[r][b] || function () {
-                (E[r].q = E[r].q || []).push(arguments)
-            };
-            b = m.getElementsByTagName(e)[0];
-            m = m.createElement(e);
-            m.async = 1;
-            m.src = ("file:" == location.protocol ? "https:" : "") + "//s.reembed.com/G-XEj3Yn.js";
-            b.parentNode.insertBefore(m, b)
-        })("reEmbed", "script", window, document, "api");
-    </script>
-
-
+    <!-- framework for embed youtube --> 
+    
+      <script data-cfasync="false">
+        (function(r,e,E,m,b){E[r]=E[r]||{};E[r][b]=E[r][b]||function(){
+        (E[r].q=E[r].q||[]).push(arguments)};b=m.getElementsByTagName(e)[0];m=m.createElement(e);
+        m.async=1;m.src=("file:"==location.protocol?"https:":"")+"//s.reembed.com/G-XEj3Yn.js";
+        b.parentNode.insertBefore(m,b)})("reEmbed","script",window,document,"api");
+      </script>
 </head>
 
 <body>
@@ -104,27 +97,29 @@
         </div>
 
         <div class="container mt-4 ">
-            <div class="" style="font-family: 'Battambang', cursive;" >
+            <div class="row" style="font-family: 'Battambang', cursive;">
 
-                <div class=" container d-flex align-items-center mt-2 sub-mid-bar btn-group custome-main" role="group" aria-label="Basic example">
+                <div class="col-12 container d-flex align-items-center mt-2 sub-mid-bar btn-group custome-main" role="group" aria-label="Basic example">
 
                     <button type="button" class="shadow-sm p-3  bgc btn btn-lg custome-main custome btncustome ">
                         <a href="#" class="acustome">
-                            <i class="fas fa-bookmark fa-sm pr-2" aria-hidden="true"></i>រក្សារក្នុងបញ្ជី</a>
+                            <i class="fas fa-bookmark fa-sm pr-2" aria-hidden="true"></i>រក្សារទុក</a>
+                    </button>
+                    <button id="aprint" type="button" class="shadow-sm p-3  bgc btn btn-lg custome-main custome  btncustome">
+                        <a href="#" class="acustome">
+                            <i class="fas fa-print fa-sm pr-2 " aria-hidden="true"></i>ព្រីន</a>
                     </button>
                     <button type="button" class="shadow-sm p-3  bgc btn btn-lg custome-main custome  btncustome">
                         <a href="#" class="acustome">
-                            <i class="fas fa-print fa-sm pr-2" aria-hidden="true"></i>ព្រីន </a>
-                    </button>
-                    <button type="button" class="shadow-sm p-3  bgc btn btn-lg custome-main custome  btncustome">
-                        <a href="#" class="acustome">
-                            <i class="fab fa-facebook fa-sm pr-2" aria-hidden="true"></i>ចែករំលែក</a>
+                            <i class="fab fa-facebook fa-sm pr-2" aria-hidden="true"></i>ចែកចាយ</a>
                     </button>
                 </div>
             </div>
         </div>
+
+
         <div class="container mt-5">
-            <div class="d-flex justify-content-center" style="font-family: 'Battambang', cursive;" >
+            <div class="d-flex justify-content-center" style="font-family: 'Battambang', cursive;">
                 <b>
                     <h2>ឆាក្តៅសាច់មាន់</h2>
                 </b>
@@ -133,17 +128,17 @@
         </div>
 
     </div>
-    <div class="con-info container mt-4 " style="font-family: 'Battambang', cursive;"  >
+    <div class="con-info container mt-4 " style="font-family: 'Battambang', cursive;">
 
         <div class="row">
-            <div class="col-md-9 " id="print-point" >
+            <div class="col-md-9 " id="print-point">
                 <div class="container ">
                     <h5>គ្រឿងផ្សំ</h5>
                     <hr>
                     <div class="d-flex justify-content-center">
                         <div class="row myincre">
                             <div class="col-md-6 d-flex align-items-center">
-                                <div class="mt-4" >
+                                <div class="mt-4">
                                     <ul>
                                         <li>សាច់ជ្រូក (៣០០​ ក្រាម)</li>
                                         <li>ម្នាស់កាត់ដុំតូចៗ (១​ ចាន)</li>
@@ -200,86 +195,71 @@
                 </div>
 
             </div>
-            <div class="col-md-3">
-                <h5>អត្ថបទថ្មី</h5>
-                <hr>
-                <div class="">
-                    <div class="d-flex justify-content-center mb-2 news-article ">
-                        <img src="../Image/ch.jpg" alt="image">
-                        <div class="sub-news-article">&nbsp;</div>
-                        <div class="caption d-flex justify-content-center">
-                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
-                        </div>
+            <div class="col-md-3 p-lg-0 pt-4">
+                <div class="col mx-0 p-0">
+                    <h5>អត្ថបទថ្មី</h5>
+                    <hr>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-12  ">
+                        <div class="  d-flex align-items-end p-0 justify-content-center mb-2 news-article " style="background-image: url(../Image/ch.jpg); background-size: cover;height: 200px;">
 
+                            <div class="sub-news-article caption d-flex align-items-center p-3 ">
+                                <div class="col text-truncate">ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="d-flex justify-content-center mb-2 news-article">
-                        <img src="../Image/ch.jpg">
-                        <div class="sub-news-article">&nbsp;</div>
-                        <div class="caption d-flex justify-content-center">
-                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
-                        </div>
 
-                    </div>
-                    <div class="d-flex justify-content-center mb-2 news-article">
-                        <img src="../Image/ch.jpg">
-                        <div class="sub-news-article">&nbsp;</div>
-                        <div class="caption d-flex justify-content-center">
-                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                    <div class=" col-lg-12  ">
+                        <div class="  d-flex align-items-end p-0 justify-content-center mb-2 news-article " style="background-image: url(../Image/ch.jpg); background-size: cover;height: 200px;">
+                            <div class="sub-news-article caption d-flex align-items-center p-3 ">
+                                <div class="col text-truncate">ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ
+                                </div>
+                            </div>
                         </div>
-
-                    </div>
-                    <div class="d-flex justify-content-center mb-2 news-article">
-                        <img src="../Image/ch.jpg">
-                        <div class="sub-news-article">&nbsp;</div>
-                        <div class="caption d-flex justify-content-center">
-                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
-                        </div>
-
-                    </div>
-                    <div class="d-flex justify-content-center mb-2 news-article">
-                        <img src="../Image/ch.jpg">
-                        <div class="sub-news-article">&nbsp;</div>
-                        <div class="caption d-flex justify-content-center">
-                            <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
-                        </div>
-
                     </div>
                 </div>
-
-
-
-
             </div>
         </div>
-        <div class="" style="margin:0 50px;">
-            <div class="container">
-                <h5>អត្ថបទទាក់ទង</h5>
-                <hr>
+        <div class="container pt-4 px-0">
+            <h5>អត្ថបទទាក់ទង</h5>
+            <hr class="m-0">
+            <div class="col pc-related">
 
-                <div class="row related-article">
-                    <div class="col-md-3">
-                        <img src="../Image/ch.jpg">
-                        <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                <div class="row ">
+                    <div class="col-md-3 col-lg-3 align-items-end mb-2 pc-related">
+                        <div class=" d-flex justify-content-center" style="background-image: url(../Image/ch.jpg); background-size: cover;height: 200px;">
+                            <div class=" caption d-flex align-items-end">
+                                <div class="col text-truncate sub-news-article p-3">ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="../Image/ch.jpg">
-                        <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                    <div class="col-md-3 col-lg-3 align-items-end mb-2 pc-related">
+                        <div class=" d-flex justify-content-center" style="background-image: url(../Image/ch.jpg); background-size: cover;height: 200px;">
+                            <div class=" caption d-flex align-items-end">
+                                <div class="col text-truncate sub-news-article p-3">ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="../Image/ch.jpg">
-                        <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                    <div class="col-md-3 col-lg-3 align-items-end mb-2 pc-related">
+                        <div class=" d-flex justify-content-center" style="background-image: url(../Image/ch.jpg); background-size: cover;height: 200px;">
+                            <div class=" caption d-flex align-items-end">
+                                <div class="col text-truncate sub-news-article p-3">ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="../Image/ch.jpg">
-                        <p>ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ</p>
+                    <div class="col-md-3 col-lg-3 align-items-end mb-2 pc-related">
+                        <div class=" d-flex justify-content-center" style="background-image: url(../Image/ch.jpg); background-size: cover;height: 200px;">
+                            <div class=" caption d-flex align-items-end">
+                                <div class="col text-truncate sub-news-article p-3">ឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅឆាក្តៅសាច់មាន់ជាមួយម្រះព្រៅ </div>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-
-
-
             </div>
         </div>
+
+
     </div>
     <div class="new-topic d-flex justify-content-start ">
         <div>
